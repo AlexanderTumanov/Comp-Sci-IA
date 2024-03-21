@@ -130,7 +130,7 @@ function SubmitEvent() {
     if (experience == 4) {
       result.innerHTML = "You should try playing Animal Crossing";
     } else {
-      result.innerHTML = "You should try playing Stardew Valley";
+      result.innerHTML = "You should try playing Minecraft";
     }
   }
   if (platform == "Console" && (genre == "Action" || genre == "Fighting")) {
@@ -179,8 +179,10 @@ function SubmitEvent() {
   if (platform == "Mobile" && (genre == "RPG" || genre == "Other")) {
     if (experience >= 2) {
       result.innerHTML = "You should try playing Genshin Impact";
+    } else if (experience == 1)  {
+      result.innerHTML = "You should try playing Minecraft";
     } else {
-      result.innerHTML = "You should try playing Stardew Valley";
+      result.innerHTML = "You should try playing Stardew Valley"
     }
   }
 }
