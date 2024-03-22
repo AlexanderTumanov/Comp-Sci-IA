@@ -128,8 +128,10 @@ function SubmitEvent() {
   }
   if (platform == "Console" && (genre == "Sandbox" || genre == "Simulation")) {
     if (experience == 4) {
+      result.innerHTML = "You should try playing Terraria";
+    } else if (experience == 3) {
       result.innerHTML = "You should try playing Animal Crossing";
-    } else {
+    }else {
       result.innerHTML = "You should try playing Stardew Valley";
     }
   }
