@@ -64,7 +64,7 @@ function SubmitEvent() {
 
   // Check if all questions have been answered
   if (
-    experience == null ||
+    experience == 0 ||
     platform == null ||
     genre == null ||
     enjoyment == null
